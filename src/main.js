@@ -4,7 +4,7 @@ import axios from 'axios';
 import {searchImg} from './js/pixabay-api.js';
 import {renderImages} from './js/render-functions.js'
 
-import iziToast from 'izitoast';
+import iziToast from "izitoast";
 import 'iziToast/dist/css/iziToast.min.css';
 
 

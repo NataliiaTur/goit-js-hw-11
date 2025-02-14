@@ -4,7 +4,7 @@ import axios from 'axios';
 
 import { renderImages } from './render-functions.js';
 
-import iziToast from 'izitoast';
+import iziToast from "izitoast";
 import 'iziToast/dist/css/iziToast.min.css';
 
 export async function searchImg(query, galleryList) { 

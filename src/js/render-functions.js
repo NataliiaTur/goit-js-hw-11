@@ -1,7 +1,7 @@
 'use strict';
 
 import axios from 'axios';
-import iziToast from 'izitoast';
+import iziToast from "izitoast";
 import 'iziToast/dist/css/iziToast.min.css';
 
 import SimpleLightbox from 'simplelightbox';
