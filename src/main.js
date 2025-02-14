@@ -5,7 +5,7 @@ import {searchImg} from './js/pixabay-api.js';
 import {renderImages} from './js/render-functions.js'
 
 import iziToast from 'izitoast';
-import "iziToast/dist/css/iziToast.min.css";
+import 'iziToast/dist/css/iziToast.min.css';
 
 
 const form = document.querySelector('.form');
@@ -32,7 +32,7 @@ form.addEventListener('submit', async evt => {
     await searchImg(value, galleryList);
 
     loader.style.display = 'none';
-    
+
     form.reset();
 });
 
