@@ -5,7 +5,7 @@ import axios from 'axios';
 import { renderImages } from './render-functions.js';
 
 import iziToast from "izitoast";
-import 'iziToast/dist/css/iziToast.min.css';
+import 'izitoast/dist/css/iziToast.min.css';
 
 export async function searchImg(query, galleryList) { 
     const API_KEY = '48820744-2d2f423ba9a206b8d884159e3';
