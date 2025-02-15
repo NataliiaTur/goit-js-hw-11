@@ -5,7 +5,7 @@ import {searchImg} from './js/pixabay-api.js';
 import {renderImages} from './js/render-functions.js'
 
 import iziToast from "izitoast";
-import 'iziToast/dist/css/iziToast.min.css';
+import 'izitoast/dist/css/iziToast.min.css';пш
 
 
 const form = document.querySelector('.form');
