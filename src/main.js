@@ -27,6 +27,8 @@ form.addEventListener('submit', async evt => {
         return;
     }
 
+    galleryList.innerHTML = '';
+
     loader.style.display = 'inline-block';
 
     await searchImg(value, galleryList);

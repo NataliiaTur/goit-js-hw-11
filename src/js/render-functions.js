@@ -7,6 +7,13 @@ import 'izitoast/dist/css/iziToast.min.css';
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
+let lightbox = new SimpleLightbox('.gallery a', {
+    captionsData: 'alt',
+    captionDelay: 250,
+    enableKeyboard: true, 
+    closeOnClick: true,   
+    swipeClose: true  
+});
 
 export function renderImages(images, galleryList) {
     const markup = images.map(img => 
@@ -26,14 +33,6 @@ export function renderImages(images, galleryList) {
     ). join('');
     
     galleryList.insertAdjacentHTML('beforeend', markup);
-
-    const lightbox = new SimpleLightbox('.gallery a', {
-        captionsData: 'alt',
-        captionDelay: 250,
-        enableKeyboard: true, 
-        closeOnClick: true,   
-        swipeClose: true  
-    });
 
     lightbox.refresh();
 }
