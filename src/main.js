@@ -15,6 +15,8 @@ const loader = document.querySelector('.loader');
 form.addEventListener('submit', async evt => {
     evt.preventDefault();
 
+    galleryList.innerHTML = '';
+
     const input = form.elements.text;
     const value = input.value.trim();
 
@@ -26,8 +28,6 @@ form.addEventListener('submit', async evt => {
     });
         return;
     }
-
-    galleryList.innerHTML = '';
 
     loader.style.display = 'inline-block';
 
